@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spin {
+    to { transform: rotate(360deg);} 
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+.border-top-color\:transparent {
+    border-top-color: transparent;
+}
+
+.border-primary {
+    border-color: blue;
+}
